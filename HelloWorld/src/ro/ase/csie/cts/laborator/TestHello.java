@@ -7,6 +7,7 @@ public class TestHello {
 
 		System.out.println("Hello!");
 		System.out.println("CTS");
+		System.out.println("Seminar 1");
 	}
 
 }
