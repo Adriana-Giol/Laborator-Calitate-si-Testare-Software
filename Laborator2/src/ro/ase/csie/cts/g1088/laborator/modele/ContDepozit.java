@@ -16,6 +16,7 @@ public class ContDepozit extends ContBancar implements Profitabil{
 	public void alimenteaza(Double valoare) {
 		this.balanta += valoare;
 	}
+	
 	@Override
 	public void extrage(Double valoare) throws ExceptieFonduriInsuficiente {
 		if(this.balanta <valoare) {
@@ -25,19 +26,18 @@ public class ContDepozit extends ContBancar implements Profitabil{
 			this.balanta -= valoare;
 		}
 	}
+	
 	@Override
 	public void transfer(Cont destinatie, Double valoare) throws ExceptieFonduriInsuficiente, ExceptieTransferIlegal{
 		if(this==destinatie){
 			throw new ExceptieTransferIlegal();
 	}
-		
 		this.extrage(valoare);
 		destinatie.alimenteaza(valoare);
 	}
 	
 	@Override
 	public void adaugaDobanda(double procentDobanda) {
-		this.balanta *= (1+ procentDobanda/100);
-		
+		this.balanta *= (1 + procentDobanda/100);	
 	}
 }
