@@ -24,4 +24,5 @@ public class Clasa1 {
 	    return rezultat;
 	  }
 	
+	
 }
