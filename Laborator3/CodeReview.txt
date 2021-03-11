@@ -7,10 +7,8 @@ Code Review
 	- variabila rezultat trebuie redenumita
 	- variabila valoare trebuie redenumita
 	- numele pachetului nu este ok
-
 	- elimina valorile predefinite din functie
-	
-	-datele de intrare NU sunt validate
+	- datele de intrare NU sunt validate
 
 2. Single Responsability si KISS  pentru functii
 	- metoda calculeaza prea multe valori intermediare
