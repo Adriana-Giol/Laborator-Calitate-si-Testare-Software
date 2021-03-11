@@ -13,5 +13,4 @@ public enum TipProdus {
 		return this.discount;
 		
 	}
-	
 }
