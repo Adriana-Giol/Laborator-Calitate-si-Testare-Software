@@ -11,6 +11,7 @@ public enum TipProdus {
 	
 	public float getDiscount() {
 		return this.discount;
+		
 	}
 	
 }
