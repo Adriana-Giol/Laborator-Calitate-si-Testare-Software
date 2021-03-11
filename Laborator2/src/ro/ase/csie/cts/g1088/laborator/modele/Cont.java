@@ -8,5 +8,4 @@ public abstract class Cont {
 	public abstract void alimenteaza(Double valoare);
 	public abstract void extrage(Double valoare) throws ExceptieFonduriInsuficiente;
 	public abstract void transfer(Cont destinatie, Double valoare) throws ExceptieFonduriInsuficiente, ExceptieTransferIlegal;
-	
 }
