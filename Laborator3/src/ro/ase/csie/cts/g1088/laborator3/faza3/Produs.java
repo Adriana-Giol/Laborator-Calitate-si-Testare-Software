@@ -27,6 +27,17 @@ public class Produs {
 		this.serviciuValidare = validare;
 	}
 	
+	//Acest constructor este ascuns in constructorul de baza
+	public Produs() {
+		for(Object serviciu : TestProdus.servicii) {
+			if(serviciu instanceof InterfataMarketing) {
+				this.serviciuMk = (InterfataMarketing) serviciu;
+			}
+		}
+		if(this.serviciuMk == null) {
+			throw new NullPointerException();
+		}
+	}
 	
 	//seter
 	//Aceste validari nu se externalizeaza
