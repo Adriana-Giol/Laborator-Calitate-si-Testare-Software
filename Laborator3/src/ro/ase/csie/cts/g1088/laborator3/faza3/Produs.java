@@ -4,12 +4,27 @@ import ro.ase.csie.cts.g1088.laborator3.exceptii.ExceptiePretInvalid;
 import ro.ase.csie.cts.g1088.laborator3.exceptii.ExceptieVechimeClient;
 import ro.ase.csie.cts.g1088.laborator3.faza3.servicii.InterfataMarketing;
 import ro.ase.csie.cts.g1088.laborator3.faza3.servicii.InterfataValidare;
+import ro.ase.csie.cts.g1088.laborator3.faza3.servicii.ServiciuValidari;
+import ro.ase.csie.cts.g1088.laborator3.faza3.servicii.StrategieMarketing2021;
 
 public class Produs {
 	
-	InterfataMarketing serviciuMk = null;
+	InterfataMarketing serviciuMk = null;	//new StrategieMarketing2021();
 	//Validari de date 
-	InterfataValidare serviciuValidare = null;
+	InterfataValidare serviciuValidare = null;	//new ServiciuValidari();
+	
+	
+	//Varianta valida - Constructor cu parametri
+	public Produs(InterfataMarketing mk, InterfataValidare validare) {
+		if(mk == null) {
+			throw new NullPointerException();
+		}
+		if(validare == null) {
+			throw new NullPointerException();
+		}
+		this.serviciuMk = mk;
+		this.serviciuValidare = validare;
+	}
 
 	
 	
