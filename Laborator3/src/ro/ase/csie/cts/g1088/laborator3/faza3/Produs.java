@@ -9,21 +9,32 @@ import ro.ase.csie.cts.g1088.laborator3.faza3.servicii.StrategieMarketing2021;
 
 public class Produs {
 	
+	//DEPENDENCY INJECTION ~ Constructor
+	
 	InterfataMarketing serviciuMk = null;	//new StrategieMarketing2021();
 	//Validari de date 
 	InterfataValidare serviciuValidare = null;	//new ServiciuValidari();
 	
 	
-	//Varianta valida - Constructor cu parametri
+	//Varianta valida - Constructor cu parametri - pentru a schimba strategia
 	public Produs(InterfataMarketing mk, InterfataValidare validare) {
-		if(mk == null) {
-			throw new NullPointerException();
-		}
+	
+		
 		if(validare == null) {
 			throw new NullPointerException();
 		}
-		this.serviciuMk = mk;
+		this.setStrategieMarketing(mk);
 		this.serviciuValidare = validare;
+	}
+	
+	
+	//seter
+	//Aceste validari nu se externalizeaza
+	public void setStrategieMarketing(InterfataMarketing strategie) {
+		if(strategie == null) {
+			throw new NullPointerException();
+		}
+		this.serviciuMk = strategie;
 	}
 
 	
