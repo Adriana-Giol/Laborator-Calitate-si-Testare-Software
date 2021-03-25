@@ -57,7 +57,7 @@ public class Caracter3D implements Cloneable{
 			return copie;
 		
 	}
-	
+	//~ FINAL
 	
 	
 	
