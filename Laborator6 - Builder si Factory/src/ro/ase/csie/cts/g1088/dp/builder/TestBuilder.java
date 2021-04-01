@@ -5,7 +5,25 @@ public class TestBuilder {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		SuperErou superErou = new SuperErou();
+		//1.Creare
+		//SuperErou superErou = new SuperErou();
+		//2. Initializare
+		//...
+		
+		//superErou.nume = "Superman";
+		
+		//SuperErou superErou2 = 
+		//		new SuperErou(
+		//		"Superman", 100, false, false, 
+		//		new Arma(), null, new Laser(), null);4
+		
+		SuperErou superman = new SuperErou.SuperErouBuilder("Superman",100).build();
+		SuperErou joker = new SuperErou.SuperErouBuilder("Joker", 200)
+				.esteNegativ()
+				.esteRanit()
+				.setArmaDreapta(new Arma())
+				.build();
+		
 	}
 
 }
