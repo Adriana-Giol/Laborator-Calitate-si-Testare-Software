@@ -11,10 +11,10 @@ public class SuperErou {
 	// SOLID D- - DIP - avem dependenta de alta clasa
 	// Arma armaStanga;
 	private InterfataArma armaStanga;
-	private InterfataArma armaDreata;
+	private InterfataArma armaDreapta;
 
 	private InterfataSuperPutere superPutere;
-	private InterfataSuperPutere superPuterePutere;
+	private InterfataSuperPutere superSuperPutere;
 
 	private SuperErou() {
 		
@@ -25,18 +25,18 @@ public class SuperErou {
 			boolean esteErouNegativ, 
 			boolean esteRanit, 
 			InterfataArma armaStanga,
-			InterfataArma armaDreata, 
+			InterfataArma armaDreapta, 
 			InterfataSuperPutere superPutere, 
-			InterfataSuperPutere superPuterePutere) {
+			InterfataSuperPutere superSuperPutere) {
 		super();
 		this.nume = nume;
 		this.puncteViata = puncteViata;
 		this.esteErouNegativ = esteErouNegativ;
 		this.esteRanit = esteRanit;
 		this.armaStanga = armaStanga;
-		this.armaDreata = armaDreata;
+		this.armaDreapta = armaDreapta;
 		this.superPutere = superPutere;
-		this.superPuterePutere = superPuterePutere;
+		this.superSuperPutere = superSuperPutere;
 	}
 	
 	//
@@ -44,7 +44,7 @@ public class SuperErou {
 	public static class SuperErouBuilder{
 		SuperErou superErou = null; //trebuie sa o punem chiar daca nu apare in diagrama
 		
-		/*fara referinta de mai sus
+		/* daca nu scriem referinta de mai sus putem sa punem din nou atributele aici 
 		private String nume;
 		private int puncteViata;
 
@@ -75,11 +75,11 @@ public class SuperErou {
 		}
 		
 		public SuperErouBuilder setArmaStanga(InterfataArma arma) {
-			this.superErou.armaStanga = true;
+			this.superErou.armaStanga = arma;
 			return this;
 		}
 		public SuperErouBuilder setArmaDreapta(InterfataArma arma) {
-			this.superErou.armaDreapta = true;
+			this.superErou.armaDreapta = arma;
 			return this;
 		}
 		
@@ -87,7 +87,7 @@ public class SuperErou {
 			this.superErou.superPutere = superPutere;
 			return this;
 		}
-		public SuperErouBuilder setSuperSuperPutere(InterfataSuperPutere superPutere) {
+		public SuperErouBuilder setSuperSuperPutere(InterfataSuperPutere superSuperPutere) {
 			this.superErou.superSuperPutere = superSuperPutere;
 			return this;
 		}
