@@ -2,7 +2,7 @@
 💛Laborator de Calitate si Testare Software in limbajul Java
 
 
-## Instrumente folosite:
+## 🛠️Instrumente folosite:
 <a href = "https://www.eclipse.org/downloads/">
     <img src = "Logo/Eclipse.png" alt="Eclipse" width = "auto" height="40px" align="center" title="Eclipse" />
 </a>
