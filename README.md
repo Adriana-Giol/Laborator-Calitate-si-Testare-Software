@@ -14,7 +14,7 @@
 </a>
 
 # 💻Pregatire mediu de lucru:
-✔️1. Laborator 1 - Pregatire mediul de lucru si "Hello World!" </br>
+✔️1. Laborator 1 - Pregatire mediu de lucru si "Hello World!" </br>
 
 ## 🧹Clean Code
 ✔️2. Laborator 2 - Implementare clase, interfete dupa o diagrama UML data</br>
