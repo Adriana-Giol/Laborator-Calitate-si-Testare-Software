@@ -9,4 +9,10 @@ Cuvinte cheie: diferite tipuri de caractere (avem o familie mai multe clase), ti
 			   utilizarea oricarei teme
 			   
 ~ FACADE ~
-2.
+2. Pentru a permite altor companii sau jucatorilor sa dezvolte solutii externe care sa se conecteze la joc trebuie dezvoltata o librarie (un API)
+- API-ul contine multe clase cu multe detalii
+- nu toate clasele sunt documentate
+- API-ul trebuie sa ofere o interfata simplificata pentru un set de functii de baza
+
+Cuvinte cheie: relatii intre clase/interfete, complexitate ridicata, interfata simplificata pentru un set de functii de baza
+
