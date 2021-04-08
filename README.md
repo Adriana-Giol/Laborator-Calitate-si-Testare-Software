@@ -24,6 +24,6 @@
 # 🎩Design Patterns
 ✔️5. Laborator 5 - Singleton & Prototype</br>
 ✔️6. Laborator 6 - Builder & Simple Factory</br>
-✔️7. Laborator 7 - Factory Method & Facade</br>
+✔️7. Laborator 7 - Factory Method & Façade</br>
 
 # 🧪Testare Unitara
