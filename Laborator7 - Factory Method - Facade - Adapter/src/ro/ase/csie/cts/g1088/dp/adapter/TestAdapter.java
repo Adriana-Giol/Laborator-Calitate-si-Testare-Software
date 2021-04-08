@@ -17,6 +17,11 @@ public class TestAdapter {
 		//2. colectie caractere EA
 		ArrayList<InterfataCaracterEA> caractereEA = new ArrayList<>();
 		caractereEA.add(new CaracterGenericEA());
+		
+		//3. Folosind un Adapter
+		InterfataCaracterEA caracterEA = new CaracterGenericEA();
+		AdapterEA2CaracterJoc adapt = new AdapterEA2CaracterJoc(caracterEA);
+		caractere.add(adapt);
 
 	}
 
