@@ -1,4 +1,4 @@
-~ FACTORY ~
+~ FACTORY METHOD ~
 1. Crearea de diferite tipuri de caractere din joc
 - in prezent exista 3 tipuri de caractere 	DISNEY, DC si MARVEL
 - jocul fiind in dezvoltare exista riscul ca in viitor sa apara tipuri noi sau cele existente se vor modifica
@@ -15,4 +15,9 @@ Cuvinte cheie: diferite tipuri de caractere (avem o familie mai multe clase), ti
 - API-ul trebuie sa ofere o interfata simplificata pentru un set de functii de baza
 
 Cuvinte cheie: relatii intre clase/interfete, complexitate ridicata, interfata simplificata pentru un set de functii de baza
+
+~ ADAPTER `
+3. Utilizarea unei librarii externe ce contine caractere Electronic Arts.
+- in prezent jocul contine caractere proprii ce fac parte din framework-ul ACME (Caracter Joc)
+
 
