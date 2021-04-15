@@ -1,0 +1,21 @@
+package ro.ase.csie.cts.g1088.dp.decorator;
+
+public abstract class SuperErou {
+
+	String nume;
+	int puncteViata;
+	
+	
+	public SuperErou(String nume, int puncteViata) {
+		super();
+		this.nume = nume;
+		this.puncteViata = puncteViata;
+	}
+	
+	//Metode ce definesc comportamentul standard al unui supererou
+	public abstract void alearga();
+	public abstract void esteLovit(int puncte);
+	public abstract void seVindeca(int puncte);
+	
+	
+}

@@ -1,0 +1,16 @@
+~ DECORATOR ~
+1. Modificarea in timpul jocului a caracteristicilor unor super-eroi
+- in timpul jocului super-eroii pot fi dotati cu echipamente noi
+- comportamentul super-eroului se poate modifica dinamic in functie de interactiunea cu celelalte caractere din joc
+
+CUVINTE CHEIE: Modificare in timpul jocului (la RUN-TIME), dotati cu echipamente noi (stare), comportament(metode), 
+				se poate modifica: dinamic (la RUN-TIME- nu modificam clasa) - static (Modificam clasa)
+	- Un obiect se poate modifica in functie de stare(atribute) sau comportament (metode).
+
+
+~ COMPOSITE ~
+2. Pentru a gestiona o structura ierarhica de caractere (de ex o armata sau un grup de jucatori)
+- sa se gaseasca o solutie eficienta care sa permita gruparea jucatorilor
+- un grup poate contine caractere controlate de jucatori sau alte grupuri
+
+~ FLYWEIGHT ~
