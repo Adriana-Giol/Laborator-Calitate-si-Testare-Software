@@ -11,6 +11,7 @@ public abstract class SuperErou {
 		this.nume = nume;
 		this.puncteViata = puncteViata;
 	}
+	public abstract int getPuncteViata();
 	
 	//Metode ce definesc comportamentul standard al unui supererou
 	public abstract void alearga();
