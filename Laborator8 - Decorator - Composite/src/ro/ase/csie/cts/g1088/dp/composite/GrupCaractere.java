@@ -3,6 +3,7 @@ package ro.ase.csie.cts.g1088.dp.composite;
 import java.util.ArrayList;
 
 public class GrupCaractere extends UnitateAbstractaJoc{
+	
 	ArrayList<UnitateAbstractaJoc> unitati = new ArrayList<>();
 			
 	@Override
@@ -14,8 +15,7 @@ public class GrupCaractere extends UnitateAbstractaJoc{
 	@Override
 	public void atacaJucator(int puncte) {
 		for(UnitateAbstractaJoc unitate: unitati)
-			unitate.atacaJucator(puncte);
-		
+			unitate.atacaJucator(puncte);	
 	}
 
 	@Override
@@ -36,6 +36,7 @@ public class GrupCaractere extends UnitateAbstractaJoc{
 
 	@Override
 	public UnitateAbstractaJoc getCaracter(int index) {
+		//Trebuie validare
 		return this.unitati.get(index);
 	}
 	

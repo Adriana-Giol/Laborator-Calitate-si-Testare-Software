@@ -13,23 +13,23 @@ public class CaracterNPC extends UnitateAbstractaJoc{
 
 	@Override
 	public void seDeplaseaza(int x, int y) {
-		System.out.println(String.format("%s se deplaseaza jucatorul", tip));
+		System.out.println(String.format("%s se deplaseaza", tip));
 		
 	}
 
 	@Override
 	public void atacaJucator(int puncte) {
-		System.out.println(String.format("%s atacajucatorul",tip));
+		System.out.println(String.format("%s ataca jucatorul",tip));
 		
 	}
 
 	@Override
 	public void seRetrage() {
-		System.out.println(String.format("%s se retrage jucatorul", tip));
+		System.out.println(String.format("%s se retrage", tip));
 		
 	}
 
-	//Solutie cand nu sunt implementate in nivelul abstract
+	//Solutie 1 - cand nu sunt implementate in nivelul abstract
 	/*
 	 * @Override public void adaugaCaracter(UnitateAbstractaJoc unitate) { throw new
 	 * UnsupportedOperationException(); }
