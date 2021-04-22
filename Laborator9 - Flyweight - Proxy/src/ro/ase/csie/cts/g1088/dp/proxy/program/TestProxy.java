@@ -21,7 +21,6 @@ public class TestProxy {
 				System.out.println("Am gasit parola: " + parola);
 			}
 		}
-
 		System.out.println("Game over!");
 	}
 
