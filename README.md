@@ -27,5 +27,6 @@
 ✔️[7. Laborator 7 - Factory Method & Façade & Adapter](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator7%20-%20Factory%20Method%20-%20Facade%20-%20Adapter)</br>
 ✔️[8. Laborator 8 - Decorator & Composite](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator8%20-%20Decorator%20-%20Composite) </br>
 ✔️[9. Laborator 9 - Flyweight & Proxy](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator9%20-%20Flyweight%20-%20Proxy/src/ro/ase/csie/cts/g1088/dp)</br>
+✔️[10. Laborator 10 - Strategy & State & Chain](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator10%20-%20Strategy%20-%20State/src/ro/ase/csie/cts/g1088/dp)</br>
 
 # 🧪Testare Unitara
