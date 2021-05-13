@@ -4,4 +4,10 @@ public abstract class ModulProcesareMesajAbstract {
 
 	ModulProcesareMesajAbstract next = null;
 	public abstract void procesareMesaj(MesajChat mesaj);
+	
+	
+	public void setNext(ModulProcesareMesajAbstract next) {
+		this.next = next;
+	}
+	
 }

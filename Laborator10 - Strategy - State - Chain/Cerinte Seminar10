@@ -14,4 +14,4 @@ de acordare a bonusului.
 3. Jocul are un chat intern.
 - vrem sa filtram comentariile / mesajele care nu sunt potrivite.
 - mesajele destinate unui anumit player vor fi private.
-- difuzare mesaje destinate tuturor.
+- difuzare mesaje destinate tuturor; destinatarul este @everyone
