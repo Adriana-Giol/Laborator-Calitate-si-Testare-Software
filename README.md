@@ -29,7 +29,7 @@
 ✔️[9. Laborator 9 - Flyweight & Proxy](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator9%20-%20Flyweight%20-%20Proxy/src/ro/ase/csie/cts/g1088/dp)</br>
 ✔️[10. Laborator 10 - Strategy & State & Chain](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator10%20-%20Strategy%20-%20State/src/ro/ase/csie/cts/g1088/dp)</br>
 ✔️[11. Laborator 11 - Command](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator11%20-%20Command/src/ro/ase/csie/cts/g1088/dp/command)</br>
-✔️[12. Laborator 12 - Observer & Memento & Template](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator12%20-%20Observer%20-%20Memento/src/ro/ase/csie/cts/g1088/dp)</br>
+✔️[12. Laborator 12 - Observer & Memento](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator12%20-%20Observer%20-%20Memento/src/ro/ase/csie/cts/g1088/dp)</br>
 
 # 🧪Testare Unitara
 ✔️[12. Laborator 12 - Testare](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator12%20-%20Testare%20Unitara/src/ro/ase/csie/cts/g1088/testare)</br>
