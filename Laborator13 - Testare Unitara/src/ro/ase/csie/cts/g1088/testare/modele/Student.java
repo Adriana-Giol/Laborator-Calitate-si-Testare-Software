@@ -68,14 +68,12 @@ public class Student {
 		return this.note.size();
 	}
 	
-
 	public float getMedie() {
 		int sum = 0;
 		for(int grade : this.note) {
 			sum += grade;
 		}
-		return sum/this.note.size();
-		
+		return sum/this.note.size();	
 	}
 
     public int getNotaMinima() {
