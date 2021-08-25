@@ -1,4 +1,4 @@
-# CTS_1088_laborator
+# Calitate si Testare Software
 💛Laborator de Calitate si Testare Software in limbajul Java
 
 
