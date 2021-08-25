@@ -33,3 +33,5 @@
 
 # 🧪Testare Unitara
 ✔️[12. Laborator 12 - Testare](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator12%20-%20Testare%20Unitara/src/ro/ase/csie/cts/g1088/testare)</br>
+✔️[13. Laborator 13 - Testare](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator13%20-%20Testare%20Unitara/src/ro/ase/csie/cts/g1088/testare)</br>
+✔️[14. Laborator 14 - Testare](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator13%20-%20Testare%20Unitara/src/ro/ase/csie/cts/g1088/testare)</br>
