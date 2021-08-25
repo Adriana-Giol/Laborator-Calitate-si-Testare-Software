@@ -1,5 +1,8 @@
-# Calitate si Testare Software
-💛Laborator de Calitate si Testare Software in limbajul Java
+# 💚Calitate si Testare Software
+**Laborator de Calitate si Testare Software in limbajul Java**</br>
+**Profesor coordonator: Boja Catalin**</br>
+**An universitar: 2020-2021**</br>
+**Grupa 1088 | Seria E**</br>
 
 
 ## 🛠️Instrumente folosite:
