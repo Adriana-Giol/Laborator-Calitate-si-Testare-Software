@@ -21,8 +21,8 @@
 
 ## 🧹Clean Code
 ✔️[2. Laborator 2 - Implementare clase, interfete dupa o diagrama UML data](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator2)</br>
-✔️[3. Laborator 3 - Code Review de un cod dat](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator3)</br>
-✔️[4. Laborator 4 - Code Review de un cod dat](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator3)</br>
+✔️[3. Laborator 3 - Code Review pe un cod dat](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator3)</br>
+✔️[4. Laborator 4 - Code Review pe un cod dat](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator3)</br>
 
 # 🎩Design Patterns
 ✔️[5. Laborator 5 - Singleton & Prototype](https://github.com/Adriana-Giol/CTS_1088_laborator/tree/main/Laborator5%20-%20Singleton%20si%20Prototype)</br>
