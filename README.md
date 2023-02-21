@@ -7,13 +7,13 @@
 
 ## 🛠️Instrumente folosite:
 <a href = "https://www.eclipse.org/downloads/">
-    <img src = "Logo/Eclipse.png" alt="Eclipse" width = "auto" height="40px" align="center" title="Eclipse" />
+    <img src = "https://github.com/Adriana-Giol/Adriana-Giol/blob/main/Logo/Logo_Tools_Eclipse.png" alt="Eclipse" width = "auto" height="40px" align="center" title="Eclipse" />
 </a>
 <a href = "https://github.com/">
-    <img src = "Logo/GitHub.png" alt="GitHub" width = "auto" height="40px" align="center" title="GitHub" />
+    <img src = "https://github.com/Adriana-Giol/Adriana-Giol/blob/main/Logo/Logo_Tools_GitHub.png" alt="GitHub" width = "auto" height="40px" align="center" title="GitHub" />
 </a>
 <a href = "http://git-scm.com/downloads/guis/">
-    <img src = "Logo/GitClient.png" alt="GitClient" width = "auto" height="40px" align="center" title="GitClient" />
+    <img src = "https://github.com/Adriana-Giol/Adriana-Giol/blob/main/Logo/Logo_Tools_GitClient.png" alt="GitClient" width = "auto" height="40px" align="center" title="GitClient" />
 </a>
 
 # 💻Pregatire mediu de lucru:
